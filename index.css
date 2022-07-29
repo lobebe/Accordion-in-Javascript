@@ -1,0 +1,59 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.question {
+  padding: 0 10px;
+  background: aliceblue;
+  max-width: 40%;
+  margin: auto;
+  border: 1px solid #fff0f8;
+  margin-bottom: 30px;
+  box-shadow: 5px 10px #fff0f8;
+}
+
+.questions-btn {
+  margin-left: 20px;
+  background: none;
+  border: none;
+  padding-top: 30px;
+}
+
+.question-title p {
+  font-weight: bold;
+  font-size: 1.3em;
+  width: 80%;
+  float: left;
+}
+
+.question-title {
+  display: inline-block;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.answer {
+  width: 100%;
+  display: none;
+}
+
+.minus-icon {
+  display: none;
+}
+
+.show-text .answer {
+  display: block;
+}
+
+.show-text .minus-icon {
+  display: inline;
+}
+
+.show-text .plus-icon {
+  display: none;
+}
